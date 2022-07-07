@@ -46,6 +46,72 @@ body {
     text-align: center;
     font-size: 20px;
   }
+  .donation {
+    display: flex;
+    width: 90%;
+    text-align: justify;
+    padding-top: 5px;
+}
+.partition {
+  display: flex;
+  padding-left: 30px;
+  margin-left: 50px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  width: 92%;
+  text-align: center;
+  font-size: 30px;
+  
+}
+  .box {
+    display: flex;
+    padding-left: 75px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    width: 12%;
+    text-align: center;
+    border-radius: 10px;
+    font-size: 30px;
+    font-weight:600 ;
+    color: gray;
+    margin: 10px;
+}
+#box-color1{
+  background-color: #FFF4D6;
+}
+#box-color2{
+  background-color: #f4ffd6;
+  color: rgb(255, 160, 71);
+  border: 3px solid rgb(255, 160, 71);
+}
+#box-color3{
+  background-color: #d6ffdd;
+}
+#box-color4{
+  background-color: #ffe8d6;
+}
+#box-color5{
+  background-color: #f0d6ffea;
+}
+input{
+  width: 50%;
+  text-align: center;
+  margin-left: 25%;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  padding-top: 20px;
+  font-size: 20px;
+}
+button{
+background-color: tomato;
+    font-size: 20px;
+    color: white;
+    border-radius: 5px;
+    padding: 10px;
+    margin-left: 45%;
+    margin-top: 20px;
+}
   
   .types {
     display: flex;
@@ -62,15 +128,18 @@ body {
     padding-top: 30px;
     padding-bottom: 30px;
     width: 93%;
-    
+    text-align: center;
     
 }
+
+    
+  
   .line {
     box-shadow: 10px 10px 40px rgb(163, 135, 135);
     width: 100%;
     margin-top: 30px;
     margin-left: 20px;
-    border-radius: 25px;
+    border-radius: 15px;
     padding: 25px 25px 25px 30px;
     height: 410px;
 
@@ -123,5 +192,4 @@ body {
     }
   
 
-  
 
