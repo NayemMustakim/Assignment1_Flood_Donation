@@ -24,10 +24,13 @@ body {
   }
   .container button{
     background-color: tomato;
-    font-size: 20px;
+    font-size: 19px;
     color: white;
     border-radius: 5px;
     padding: 10px;
+    margin-left: 10px;
+    width: 20%;
+    
   }
   .centered {
     position: absolute;
@@ -93,7 +96,7 @@ body {
 #box-color5{
   background-color: #f0d6ffea;
 }
-input{
+#txtid{
   width: 50%;
   text-align: center;
   margin-left: 25%;
@@ -165,11 +168,74 @@ background-color: tomato;
 
     
 }
+img {
+  width: 450px;
+  height: 400px;
+  padding: 10px 20px 20px 20px;
+  border-radius:  10px;
+}
+
+
+.button {
+  background-color: #FF5959;
+  color: #fdfdfd;
+  text-decoration: none;
+  padding: 12px 35px;
+  border-radius: 5px;
+  font-size: 20px;
+  
+}
+.maintain {
+  width: 100%;
+  padding-top: 50px;
+  text-align: justify;
+
+}
+.maintain p{
+  text-align: justify;
+  margin-bottom: 30px;
+}
+
+.title{
+  font-family: 'Poppins', sans-serif;
+  color: #0b1b35;
+  text-align: left;
+}
+.donation-updates{
+background-color:#FFF4D6;
+margin-bottom: 30px;
+width: 42%;
+height: 118px;
+margin-left: 19%;
+padding-left: 18%;
+padding-top: 7%;
+border-radius: 10px;
+}
+#email-form{
+  height: 25px;
+  border-radius: 3px;
+  padding-left: 10px;
+  font-size: 15px;
+  background-color:whitesmoke;
+}
+.input-group-addon{
+  background-color: tomato;
+  color: white;
+  height: 15px;
+  font-size: 16px;
+  border-radius: 3px;
+  padding: 8px 18px 8px 18px;
+  margin-left: 0;
+  
+}
+
+
+
   .final {
     background-color: rgb(0, 0, 0);
-    height: 130px;
+    height: 200px;
     text-align: center;
-    padding-top: 10px;
+    padding-top: 30px;
     
     }
     
